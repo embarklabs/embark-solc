@@ -1,0 +1,29 @@
+{
+  "name": "embark-solc",
+  "version": "0.0.5",
+  "description": "Solc plugin for Embark (uses command line)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "solc",
+    "plugin",
+    "contracts",
+    "ethereum"
+  ],
+  "author": "Richard Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/embark-framework/embark-solc/issues"
+  },
+  "homepage": "https://github.com/embark-framework/embark-solc#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "shelljs": "^0.8.1"
+  }
+}
