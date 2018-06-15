@@ -1,4 +1,4 @@
-Embark-Bamboo
+Embark-Solc
 ======
 
 Plugin for [Embark](https://github.com/embark-framework/embark) to compile contracts using solc
