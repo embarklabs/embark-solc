@@ -11,7 +11,8 @@
     "solc",
     "plugin",
     "contracts",
-    "ethereum"
+    "ethereum",
+	"embark"
   ],
   "author": "Richard Ramos",
   "license": "ISC",
