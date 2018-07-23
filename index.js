@@ -7,6 +7,6 @@ module.exports = (embark) => {
 		if(!contractFiles || !contractFiles.length) {
 			return cb();
 		}
-		Compiler.compileSolc(embark.logger, contractFiles, cb);
+		Compiler.compileSolc(embark, contractFiles, cb);
 	}
 };
