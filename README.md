@@ -13,9 +13,13 @@ then add embark-solc to the plugins section in ```embark.json```:
 
 ```Json
   "plugins": {
-    "embark-solc": {}
+    "embark-solc": {
+      "outputBinary": false
+    }
   }
 ```
+
+- `outputBinary` can be specified to generate a .bin file that contains the binary of the contracts in hex. Default value is `false`.
 
 Requirements
 ======
