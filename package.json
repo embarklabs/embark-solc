@@ -12,7 +12,7 @@
     "plugin",
     "contracts",
     "ethereum",
-	"embark"
+    "embark"
   ],
   "author": "Richard Ramos",
   "license": "ISC",

@@ -3,7 +3,7 @@ const Compiler = require("./lib/Compiler");
 
 module.exports = (embark) => {
 	embark.registerCompiler('.sol', compileSolc);
-	function compileSolc(contractFiles, cb) {
+	function compileSolc(contractFiles, options, cb) {
 		if(!contractFiles || !contractFiles.length) {
 			return cb();
 		}
