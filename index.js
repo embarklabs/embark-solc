@@ -24,6 +24,6 @@ module.exports = (embark) => {
     if (!contractFiles || !contractFiles.length) {
       return cb();
     }
-    Compiler.compileSolc(embark, contractFiles, cb);
+    Compiler.compileSolc(embark, contractFiles, embark.config.contractDirectories, cb);
   });
 };
