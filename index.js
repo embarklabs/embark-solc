@@ -4,11 +4,6 @@ const semver = require('semver');
 
 module.exports = (embark) => {
   if (embark.config.embarkConfig.versions.solc) {
-    const versionPromise = new Promise(function(resolve, reject) {
-      // Check solc version
-      
-    });
-
     embark.registerCompiler('.sol', (contractFiles, options, cb) => {
       if (!contractFiles || !contractFiles.length) {
         return cb();
