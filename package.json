@@ -1,6 +1,6 @@
 {
   "name": "embark-solc",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Solc plugin for Embark (uses command line)",
   "main": "index.js",
   "scripts": {
